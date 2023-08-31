@@ -33,7 +33,6 @@ body {
 }
 
 .contato button:hover {
-    box-shadow: 0px 0px 8px white;
     transform: scale(1.05);
     transition: .2s;
 }
@@ -46,7 +45,7 @@ h2.titulo {
 }
 
 
-/*  */
+/* HEADER */
 header {
     padding: 40px 4%;
 }
@@ -79,7 +78,7 @@ header nav ul li {
 }
 
 
-
+/* PROJETOS */
 section {
     margin: 0 auto;
 }
@@ -150,6 +149,7 @@ section.projetos .flex {
 
 .projetos .projetos-box .ling {
     margin-top: 25px;
+    font-size: 20px;
 }
 
 
@@ -300,14 +300,6 @@ form .btn-enviar input[type=submit] {
     width: 120px;
     font-weight: 700;
     cursor: pointer;
-}
-
-form .btn-enviar input[type=submit]:hover {
-    color: black;
-    background-color: white;
-    box-shadow: 0px 0px 8px white;
-    transform: scale(1.05);
-    transition: .2s;
 }
 
 /* RODA PÉ */

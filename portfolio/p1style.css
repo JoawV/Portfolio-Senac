@@ -1,0 +1,115 @@
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+/* HEADER */
+header {
+    padding: 40px 4%;
+}
+
+header>.interface {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+header a {
+    color: rgb(121, 120, 120);
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover {
+    color: white;
+    transform: scale(1.20);
+    transition: .2s;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 40px;
+}
+
+/* IMAGEM */
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    text-align: center;
+}
+
+.img img {
+    display: inline-block;
+    width: 700px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* TEXTOS */
+section.texto {
+    padding: 40px 10%;
+}
+
+section.texto .flex {
+    justify-content: space-between;
+    display: flex;
+}
+
+.texto .txt h3 {
+    color: white;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.txt ul {
+    color: white;
+    margin-top: 35px;
+}
+
+.txt ul li {
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.txt a {
+    text-decoration: none;
+    color: white;
+}
+
+.txt p {
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+}
+
+.texto .resumo h3 {
+    color: white;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.resumo p {
+    margin-top: 35px;
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+}
+
+.txt,
+.resumo {
+    width: 48%;
+}
